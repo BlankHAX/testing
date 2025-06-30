@@ -1,4 +1,4 @@
-local MarsLib = loadstring(game:HttpGet("PASTE_RAW_LINK_HERE"))()
+local MarsLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BlankHAX/Mars-Library/refs/heads/main/source"))()
 
 local Window = MarsLib:MakeWindow({
     Name = "Mars Library by BlankHAX",
