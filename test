@@ -1,0 +1,20 @@
+local MarsLib = loadstring(game:HttpGet("PASTE_RAW_LINK_HERE"))()
+
+local Window = MarsLib:MakeWindow({
+    Name = "Mars Library by BlankHAX",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "MarsConfigs"
+})
+
+local Tab = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998"
+})
+
+Tab:AddButton({
+    Name = "Button Example",
+    Callback = function()
+        print("Clicked!")
+    end
+})
